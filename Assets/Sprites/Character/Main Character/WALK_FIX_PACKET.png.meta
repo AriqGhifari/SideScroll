@@ -149,6 +149,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -407,7 +419,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1123154656040fd4bbaf1d2a5472aeaf
     internalID: 0
     vertices: []
     indices: 
@@ -415,18 +427,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      WALK_FIX_PACKET_8: 21300016
-      WALK_FIX_PACKET_2: 21300004
-      WALK_FIX_PACKET_1: 21300002
-      WALK_FIX_PACKET_9: 21300018
-      WALK_FIX_PACKET_5: 21300010
-      WALK_FIX_PACKET_3: 21300006
-      WALK_FIX_PACKET_4: 21300008
-      WALK_FIX_PACKET_7: 21300014
-      WALK_FIX_PACKET_6: 21300012
       WALK_FIX_PACKET_0: 21300000
+      WALK_FIX_PACKET_1: 21300002
       WALK_FIX_PACKET_10: 21300020
       WALK_FIX_PACKET_11: 21300022
+      WALK_FIX_PACKET_2: 21300004
+      WALK_FIX_PACKET_3: 21300006
+      WALK_FIX_PACKET_4: 21300008
+      WALK_FIX_PACKET_5: 21300010
+      WALK_FIX_PACKET_6: 21300012
+      WALK_FIX_PACKET_7: 21300014
+      WALK_FIX_PACKET_8: 21300016
+      WALK_FIX_PACKET_9: 21300018
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
