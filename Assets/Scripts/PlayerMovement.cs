@@ -42,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    void Update()
     {
         // Menggerakan player ke kanan atau kiri menggunakan transform.translate
         float horizontalInput = Input.GetAxis("Horizontal");
