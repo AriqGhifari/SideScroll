@@ -34,6 +34,7 @@ public class PlayerPositionHandler : MonoBehaviour
     public void OnTrap(GameObject col)
     {
         ChangePlayerPosition(currentCheckpointPosition);
+        
     }
 
     //berguna ketika Player menabrak garis Finish
@@ -46,6 +47,7 @@ public class PlayerPositionHandler : MonoBehaviour
     private void ChangePlayerPosition(Vector2 newPosition)
     {
         transform.position = newPosition;
+        
     }
 		//berguna untuk Load Position dari Scriptable object
     private void LoadPosition()

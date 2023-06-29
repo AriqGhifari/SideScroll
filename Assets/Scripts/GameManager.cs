@@ -7,7 +7,7 @@ using System.IO;
 public class GameManager : MonoBehaviour
 {
 
-    #region Game Manager
+   #region Game Manager
     public static GameManager Instance;
     void Awake()
     {
@@ -18,9 +18,10 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            
         }
     }
+
 
     public void GameManagerCheck()
     {
@@ -48,7 +49,7 @@ public class GameManager : MonoBehaviour
     }
     #endregion
 
-   #region Level Manager
+    #region Level Manager
     LevelData levelData;
     public int levelCurrent;
 
@@ -95,5 +96,8 @@ public class GameManager : MonoBehaviour
 
     #endregion
 
-}
+    #region Panel Management Data
+    public bool isStart;
+    #endregion
 
+}

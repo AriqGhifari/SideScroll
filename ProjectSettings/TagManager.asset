@@ -4,14 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - TRAP
-  - CHECKPOINT
-  - GEAR
-  - TRIGGER
   - Trap
   - Checkpoint
   - Gear
   - Trigger
+  - Goal
   layers:
   - Default
   - TransparentFX
